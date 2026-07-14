@@ -11,7 +11,10 @@ erDiagram
     PerfilesDocentes ||--o{ PresentacionesDisponibilidad : realiza
     PresentacionesDisponibilidad ||--o{ BloquesDisponibilidad : incluye
     CiclosLectivos ||--o{ EstructurasAcademicas : define
-    EstructurasAcademicas ||--o{ EspaciosCurriculares : contiene
+    CiclosLectivos ||--o{ DivisionesCiclo : habilita
+    EstructurasAcademicas ||--o{ OfertasAcademicas : contiene
+    OfertasAcademicas ||--o{ EspaciosCurriculares : aplica
+    DivisionesCiclo ||--o{ EspaciosCurriculares : recibe
     EspaciosCurriculares ||--o{ AsignacionesDocentes : recibe
     PerfilesDocentes ||--o{ AsignacionesDocentes : ocupa
     CiclosLectivos ||--o{ ExportacionesUntis : genera
@@ -60,14 +63,31 @@ erDiagram
       int CicloLectivoId FK
       string Estado
     }
-    EspaciosCurriculares {
+    DivisionesCiclo {
+      int Id PK
+      int CicloLectivoId FK
+      string Curso
+      string Nombre
+      int Orden
+      bool Activo
+    }
+    OfertasAcademicas {
       int Id PK
       int EstructuraAcademicaId FK
-      string Nivel
-      string DivisionGrupo
+      string Curso
+      string Modalidad
       string Materia
-      decimal HorasCatedra
+      decimal HorasCatedra45
+      int Orden
+      bool Activo
+    }
+    EspaciosCurriculares {
+      int Id PK
+      int OfertaAcademicaId FK
+      int DivisionCicloId FK
+      decimal HorasCatedra45
       string CodigoUntis
+      bool Activo
     }
     AsignacionesDocentes {
       int Id PK
@@ -84,4 +104,4 @@ erDiagram
     }
 ```
 
-`Usuarios` mantiene roles privilegiados; la autoalta docente se materializa en `PerfilesDocentes`. Cada perfil puede vincularse con varios `Departamentos` mediante una relacion muchos-a-muchos. `Auditoria` es append-only y referencia actores por email.
+`Usuarios` mantiene roles privilegiados; la autoalta docente se materializa en `PerfilesDocentes`. Cada perfil puede vincularse con varios `Departamentos` mediante una relacion muchos-a-muchos. `OfertasAcademicas` representa las filas de la matriz y `EspaciosCurriculares` solo sus celdas aplicables; una celda sin registro equivale a "No aplica". `Auditoria` es append-only y referencia actores por email.

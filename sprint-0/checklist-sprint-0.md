@@ -16,7 +16,8 @@
 - [x] Confirmar que el ciclo inicia sin nomina docente precargada.
 - [x] Confirmar acceso para cualquier cuenta `@goethe.edu.ar`.
 - [x] Separar autoalta docente de roles administrativos.
-- [ ] Confirmar fecha de apertura, cierre y reapertura de disponibilidad.
+- [x] Confirmar que apertura y cierre son configurables por ciclo desde el ABM del Director.
+- [ ] Confirmar regla y permisos de reapertura de disponibilidad.
 - [x] Confirmar que una persona puede pertenecer a varios departamentos.
 - [ ] Confirmar si una persona puede declarar mas de un cargo.
 - [ ] Confirmar campos obligatorios del perfil declarado.
@@ -25,7 +26,9 @@
 
 - [x] Definir el 35% como advertencia visible y no bloqueante.
 - [ ] Confirmar bloques horarios 2027 y excepcion de los miercoles.
-- [ ] Confirmar materias comunes, modalidades, NAT/SOC/ECO, IMA y grupos compartidos.
+- [x] Confirmar que cursos, divisiones, modalidades, materias, horas y aplicabilidad varian por ciclo y son administrados por el Director.
+- [ ] Confirmar que `Horas 45'` representa modulos semanales y no una distribucion por dia.
+- [ ] Confirmar reglas particulares para NAT/SOC/ECO, IMA y grupos compartidos.
 - [ ] Confirmar reglas de talleres y redondeos.
 - [ ] Confirmar estados y responsables de aprobacion/reapertura.
 

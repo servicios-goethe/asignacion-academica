@@ -18,6 +18,7 @@ Estado: En curso
 - Creacion de presupuestos mensuales de USD 50 en dev y prod, con alertas 50/80/100% a `servicios@goethe.edu.ar` y vigencia hasta el 2028-06-30.
 - Definicion de referentes mediante perfiles: Director para validacion funcional, Admin para validacion tecnica y `servicios@goethe.edu.ar` como unico Superadmin fijo.
 - Confirmacion de varios departamentos por docente y advertencia no bloqueante cuando la disponibilidad no alcanza el minimo del 35% adicional.
+- Confirmacion de estructura anual configurable por el Director: fechas, cursos, modalidades, materias, horas de 45 minutos, divisiones y matriz de aplicabilidad/asignacion.
 
 ## Incidencias y aprendizaje
 

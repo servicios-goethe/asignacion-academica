@@ -114,7 +114,9 @@ Objetivo: convertir las presentaciones recibidas en insumo de planificacion y co
 Entregables:
 
 - Tablero de avance, filtros, pendientes, observadas e insuficiencias.
-- ABM de niveles, divisiones, modalidades, materias, grupos y talleres.
+- Configuracion del ciclo con fechas de apertura y cierre de disponibilidad.
+- ABM anual de cursos, divisiones, modalidades, materias, grupos y talleres.
+- Matriz anual con horas de 45 minutos, celdas aplicables/no aplicables y excepciones de carga por division.
 - Horas catedra, codigos Untis y reglas de replicacion.
 - Estados de estructura: En desarrollo, Finalizada, Aprobada y Reabierta.
 - Validaciones de completitud y auditoria transaccional.
@@ -123,7 +125,8 @@ Criterios de aceptacion:
 
 - El Director analiza el universo real surgido de las cargas 2027.
 - No puede aprobar una estructura incompleta.
-- Las materias comunes y de modalidad se aplican solo a los grupos definidos.
+- Las materias comunes y de modalidad se aplican solo a las divisiones definidas por el Director.
+- Las celdas deshabilitadas no generan espacios curriculares ni admiten asignaciones.
 
 ## Sprint 4: Asignacion docente
 

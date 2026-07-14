@@ -7,7 +7,7 @@ Las preguntas sobre existencia de una nomina previa quedan cerradas: no existe y
 1. Que campos debe declarar el docente ademas de nombre, cargo, departamento y horas frente a curso?
 2. Puede una misma persona declarar varios cargos? La seleccion de varios departamentos ya esta confirmada.
 3. Las horas declaradas requieren validacion posterior de Direccion o RRHH?
-4. Cuales son los bloques horarios exactos para 2027?
+4. Cuales son los bloques horarios exactos para que los docentes declaren disponibilidad en 2027?
 5. Que texto institucional debe explicar la advertencia del 35% al docente?
 
 ## Flujo y permisos
@@ -19,11 +19,12 @@ Las preguntas sobre existencia de una nomina previa quedan cerradas: no existe y
 
 ## Estructura y Untis
 
-1. Cuales son niveles, divisiones, modalidades y talleres del ciclo 2027?
-2. Como se modelan NAT/SOC/ECO, IMA y grupos compartidos?
-3. De donde surgen los codigos Untis de docentes que se autoinscriben?
-4. Que version de Untis y variante exacta de GPU014 se usa?
-5. Las aulas forman parte del alcance de exportacion?
+1. `Horas 45'` representa cantidad semanal de modulos o una distribucion por cada dia?
+2. Como se modelan las excepciones NAT/SOC/ECO, IMA y grupos compartidos dentro de la matriz anual?
+3. Una misma celda materia-division puede requerir mas de un docente?
+4. De donde surgen los codigos Untis de docentes que se autoinscriben?
+5. Que version de Untis y variante exacta de GPU014 se usa?
+6. Las aulas forman parte del alcance de exportacion?
 
 ## Infraestructura
 

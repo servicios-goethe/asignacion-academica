@@ -16,5 +16,6 @@ Incluye:
 - AJ-007: presupuestos y alertas de consumo para ambos ambientes.
 - AJ-008: referentes funcional y tecnico resueltos por perfiles; solo el Superadmin queda fijo por email.
 - AJ-009: relacion de varios departamentos por docente y regla del 35% no bloqueante.
+- AJ-010: estructura anual configurable por el Director mediante una matriz equivalente a la planilla actual.
 
 Criterio de cierre: documentacion publicada en GitHub, arquitectura aprobada y prerrequisitos de Sprint 1 identificados. La creacion de recursos Azure requiere autorizacion expresa.

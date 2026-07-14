@@ -28,7 +28,9 @@
 
 ## EP-05 Estructura academica
 
-- Como Director, quiero gestionar niveles, divisiones, modalidades, grupos, materias y talleres.
+- Como Director, quiero configurar para cada ciclo sus fechas de apertura y cierre.
+- Como Director, quiero gestionar cursos, divisiones, modalidades, grupos, materias, horas de 45 minutos y talleres.
+- Como Director, quiero activar o desactivar cada cruce materia-division en una matriz similar a la planilla actual.
 - Como Director, quiero validar completitud antes de aprobar la estructura.
 - Como Director, quiero mantener codigos Untis coherentes.
 
