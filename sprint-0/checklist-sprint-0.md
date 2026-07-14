@@ -17,12 +17,13 @@
 - [x] Confirmar acceso para cualquier cuenta `@goethe.edu.ar`.
 - [x] Separar autoalta docente de roles administrativos.
 - [ ] Confirmar fecha de apertura, cierre y reapertura de disponibilidad.
-- [ ] Confirmar si una persona puede presentar mas de un cargo/departamento.
+- [x] Confirmar que una persona puede pertenecer a varios departamentos.
+- [ ] Confirmar si una persona puede declarar mas de un cargo.
 - [ ] Confirmar campos obligatorios del perfil declarado.
 
 ## Reglas funcionales
 
-- [ ] Definir aplicacion y visibilidad exacta de la regla del 35%.
+- [x] Definir el 35% como advertencia visible y no bloqueante.
 - [ ] Confirmar bloques horarios 2027 y excepcion de los miercoles.
 - [ ] Confirmar materias comunes, modalidades, NAT/SOC/ECO, IMA y grupos compartidos.
 - [ ] Confirmar reglas de talleres y redondeos.

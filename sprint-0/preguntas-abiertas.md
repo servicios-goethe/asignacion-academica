@@ -5,11 +5,10 @@ Las preguntas sobre existencia de una nomina previa quedan cerradas: no existe y
 ## Disponibilidad docente
 
 1. Que campos debe declarar el docente ademas de nombre, cargo, departamento y horas frente a curso?
-2. Puede una misma persona declarar varios cargos o departamentos en una sola presentacion?
+2. Puede una misma persona declarar varios cargos? La seleccion de varios departamentos ya esta confirmada.
 3. Las horas declaradas requieren validacion posterior de Direccion o RRHH?
 4. Cuales son los bloques horarios exactos para 2027?
-5. El 35% es una advertencia, un bloqueo o una excepcion aprobable?
-6. El docente ve el calculo y la cantidad minima requerida?
+5. Que texto institucional debe explicar la advertencia del 35% al docente?
 
 ## Flujo y permisos
 

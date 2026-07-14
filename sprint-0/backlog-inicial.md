@@ -15,9 +15,9 @@
 
 ## EP-03 Disponibilidad docente
 
-- Como docente, quiero declarar datos de trabajo, horas y bloques disponibles.
+- Como docente, quiero declarar datos de trabajo, uno o varios departamentos, horas y bloques disponibles.
 - Como docente, quiero guardar borrador y enviar cuando este listo.
-- Como docente, quiero comprender el resultado de la regla del 35%.
+- Como docente, quiero ver una advertencia clara si mi disponibilidad no alcanza las horas frente a curso mas el 35%, sin que esto impida el envio.
 - Como Director, quiero observar o reabrir presentaciones con trazabilidad.
 
 ## EP-04 Panel de Direccion
@@ -48,4 +48,3 @@
 
 - Como owner, quiero UAT por rol, observabilidad, backup y restauracion probados.
 - Como owner, quiero promover a produccion exactamente el artefacto validado en dev.
-

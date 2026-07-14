@@ -10,3 +10,4 @@
 | AJ-006 | 2026-07-14 | Crear exclusivamente los resource groups dev y prod del proyecto en `brazilsouth`. | Completado | 0 |
 | AJ-007 | 2026-07-14 | Configurar presupuestos y alertas de consumo 50/80/100% para dev y prod. | Completado | 0 |
 | AJ-008 | 2026-07-14 | Definir referentes por perfil: Director como referente funcional, Admin como referente tecnico y `servicios@goethe.edu.ar` como Superadmin fijo. | Incorporado | 0-1 |
+| AJ-009 | 2026-07-14 | Permitir varios departamentos por docente y tratar el minimo de disponibilidad del 35% como advertencia no bloqueante. | Incorporado | 0-2 |
