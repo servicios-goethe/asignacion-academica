@@ -20,7 +20,8 @@ El primer ciclo objetivo es 2027. El sistema comienza sin una nomina precargada:
 3. `plan-implementacion-sprints.md`
 4. `docs/ROLES_Y_PERMISOS.md`
 5. `docs/DER.md`
-6. `sprint-0/README.md`
+6. `docs/FORMULARIO_DISPONIBILIDAD.md`
+7. `sprint-0/README.md`
 
 ## Estado
 
@@ -29,4 +30,3 @@ Sprint 0 en curso. No se crean recursos Azure hasta contar con autorizacion expr
 ## Repositorio
 
 Owner tecnico: `servicios@goethe.edu.ar`.
-

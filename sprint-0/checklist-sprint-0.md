@@ -19,8 +19,10 @@
 - [x] Confirmar que apertura y cierre son configurables por ciclo desde el ABM del Director.
 - [ ] Confirmar regla y permisos de reapertura de disponibilidad.
 - [x] Confirmar que una persona puede pertenecer a varios departamentos.
-- [ ] Confirmar si una persona puede declarar mas de un cargo.
-- [ ] Confirmar campos obligatorios del perfil declarado.
+- [x] Confirmar un unico cargo por docente.
+- [x] Confirmar email, nombre y apellido desde Google SSO, sin edicion.
+- [x] Confirmar horas frente a curso como modulos semanales de 45 minutos.
+- [x] Confirmar campos obligatorios del perfil declarado.
 
 ## Reglas funcionales
 

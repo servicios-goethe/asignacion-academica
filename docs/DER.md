@@ -9,7 +9,10 @@ erDiagram
     Departamentos ||--o{ PerfilesDocentesDepartamentos : clasifica
     CiclosLectivos ||--o{ PresentacionesDisponibilidad : recibe
     PerfilesDocentes ||--o{ PresentacionesDisponibilidad : realiza
-    PresentacionesDisponibilidad ||--o{ BloquesDisponibilidad : incluye
+    CiclosLectivos ||--o{ BloquesHorariosCiclo : configura
+    PresentacionesDisponibilidad ||--o{ BloquesDisponibilidad : selecciona
+    BloquesHorariosCiclo ||--o{ BloquesDisponibilidad : recibe
+    Cargos ||--o{ PerfilesDocentes : clasifica
     CiclosLectivos ||--o{ EstructurasAcademicas : define
     CiclosLectivos ||--o{ DivisionesCiclo : habilita
     EstructurasAcademicas ||--o{ OfertasAcademicas : contiene
@@ -31,8 +34,13 @@ erDiagram
       int CicloLectivoId FK
       string Email
       string NombreCompleto
-      string Cargo
-      decimal HorasFrenteCurso
+      int CargoId FK
+      decimal ModulosSemanalesFrenteCurso
+    }
+    Cargos {
+      int Id PK
+      string Nombre UK
+      bool Activo
     }
     Departamentos {
       int Id PK
@@ -52,11 +60,17 @@ erDiagram
       string Observaciones
     }
     BloquesDisponibilidad {
+      int PresentacionDisponibilidadId PK, FK
+      int BloqueHorarioCicloId PK, FK
+    }
+    BloquesHorariosCiclo {
       int Id PK
-      int PresentacionDisponibilidadId FK
+      int CicloLectivoId FK
       int DiaSemana
       time HoraInicio
       time HoraFin
+      int Orden
+      bool Activo
     }
     EstructurasAcademicas {
       int Id PK
@@ -104,4 +118,4 @@ erDiagram
     }
 ```
 
-`Usuarios` mantiene roles privilegiados; la autoalta docente se materializa en `PerfilesDocentes`. Cada perfil puede vincularse con varios `Departamentos` mediante una relacion muchos-a-muchos. `OfertasAcademicas` representa las filas de la matriz y `EspaciosCurriculares` solo sus celdas aplicables; una celda sin registro equivale a "No aplica". `Auditoria` es append-only y referencia actores por email.
+`Usuarios` mantiene roles privilegiados; la autoalta docente se materializa en `PerfilesDocentes`. Email y nombre provienen de Google SSO y no son editables por el docente. Cada perfil tiene un cargo y puede vincularse con varios `Departamentos`. Los bloques se configuran por ciclo y las selecciones se registran mediante una relacion muchos-a-muchos. `OfertasAcademicas` representa las filas de la matriz y `EspaciosCurriculares` solo sus celdas aplicables; una celda sin registro equivale a "No aplica". `Auditoria` es append-only y referencia actores por email.

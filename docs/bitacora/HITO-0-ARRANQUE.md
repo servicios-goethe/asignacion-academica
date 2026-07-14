@@ -20,6 +20,8 @@ Estado: En curso
 - Confirmacion de varios departamentos por docente y advertencia no bloqueante cuando la disponibilidad no alcanza el minimo del 35% adicional.
 - Confirmacion de estructura anual configurable por el Director: fechas, cursos, modalidades, materias, horas de 45 minutos, divisiones y matriz de aplicabilidad/asignacion.
 - Confirmacion de `Horas 45'` como cantidad semanal de modulos por materia, curso y division; la distribucion diaria queda en Untis.
+- Confirmacion de Google SSO como fuente ineditable de email, nombre y apellido; un cargo por docente y horas frente a curso en modulos semanales de 45 minutos.
+- Incorporacion al repositorio de las capturas del formulario 2026 como evidencia funcional.
 
 ## Incidencias y aprendizaje
 

@@ -92,7 +92,7 @@ Objetivo: habilitar la primera etapa operativa del ciclo.
 Entregables:
 
 - Apertura y cierre configurable del periodo de carga.
-- Alta del perfil declarado por el docente: identidad Google, nombre, uno o varios departamentos, cargo, horas frente a curso y observaciones.
+- Alta del perfil docente: email, nombre y apellido ineditables desde Google SSO; uno o varios departamentos, un cargo, modulos semanales de 45 minutos frente a curso y observaciones.
 - Grilla semanal configurable de bloques horarios.
 - Guardado automatico/borrador, validacion y envio final.
 - Calculo visible de disponibilidad declarada contra horas frente a curso mas 35%; si no alcanza, se muestra una advertencia que no bloquea el envio.
@@ -103,6 +103,7 @@ Entregables:
 Criterios de aceptacion:
 
 - El docente completa el proceso sin haber sido precargado.
+- El docente no puede alterar email, nombre ni apellido obtenidos de Google.
 - Solo puede ver y editar su propia presentacion.
 - El sistema conserva la identidad Google y los datos declarados para el ciclo 2027.
 - El Director puede observar y reabrir una presentacion con trazabilidad.

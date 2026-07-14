@@ -13,3 +13,4 @@
 | AJ-009 | 2026-07-14 | Permitir varios departamentos por docente y tratar el minimo de disponibilidad del 35% como advertencia no bloqueante. | Incorporado | 0-2 |
 | AJ-010 | 2026-07-14 | Incorporar un ABM anual para fechas, cursos, modalidades, materias, horas de 45 minutos, divisiones y matriz de aplicabilidad/asignacion. | Incorporado | 0-4 |
 | AJ-011 | 2026-07-14 | Definir `Horas 45'` como cantidad semanal de modulos por materia, curso y division; Untis organiza dias y horarios. | Incorporado | 0-5 |
+| AJ-012 | 2026-07-14 | Definir Google SSO como fuente ineditable de email, nombre y apellido; cargo unico y horas frente a curso en modulos semanales de 45 minutos. | Incorporado | 0-2 |

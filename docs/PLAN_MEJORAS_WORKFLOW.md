@@ -18,5 +18,6 @@ Incluye:
 - AJ-009: relacion de varios departamentos por docente y regla del 35% no bloqueante.
 - AJ-010: estructura anual configurable por el Director mediante una matriz equivalente a la planilla actual.
 - AJ-011: limite funcional confirmado entre carga semanal del sistema y calendarizacion en Untis.
+- AJ-012: contrato del formulario docente basado en Google SSO y referencia visual del formulario actual.
 
 Criterio de cierre: documentacion publicada en GitHub, arquitectura aprobada y prerrequisitos de Sprint 1 identificados. La creacion de recursos Azure requiere autorizacion expresa.

@@ -9,13 +9,14 @@
 ## EP-02 Acceso y ciclo lectivo
 
 - Como usuario `@goethe.edu.ar`, quiero ingresar sin haber sido precargado.
+- Como docente, quiero que email, nombre y apellido provengan de Google y no puedan ser modificados.
 - Como docente, quiero crear mi perfil para el ciclo 2027.
 - Como administrador, quiero abrir y cerrar el periodo anual de carga.
 - Como owner, quiero que los roles administrativos se asignen explicitamente.
 
 ## EP-03 Disponibilidad docente
 
-- Como docente, quiero declarar datos de trabajo, uno o varios departamentos, horas y bloques disponibles.
+- Como docente, quiero declarar un cargo, uno o varios departamentos, modulos semanales frente a curso y bloques disponibles.
 - Como docente, quiero guardar borrador y enviar cuando este listo.
 - Como docente, quiero ver una advertencia clara si mi disponibilidad no alcanza las horas frente a curso mas el 35%, sin que esto impida el envio.
 - Como Director, quiero observar o reabrir presentaciones con trazabilidad.
