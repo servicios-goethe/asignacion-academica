@@ -22,6 +22,8 @@ Estado: En curso
 - Confirmacion de `Horas 45'` como cantidad semanal de modulos por materia, curso y division; la distribucion diaria queda en Untis.
 - Confirmacion de Google SSO como fuente ineditable de email, nombre y apellido; un cargo por docente y horas frente a curso en modulos semanales de 45 minutos.
 - Incorporacion al repositorio de las capturas del formulario 2026 como evidencia funcional.
+- Confirmacion de interfaz completa bilingue espanol/aleman con selector y preferencia persistida por usuario.
+- Elaboracion de propuesta de bloques 2027; queda pendiente confirmar el sexto y septimo bloque de los miercoles por inconsistencia en el formulario actual.
 
 ## Incidencias y aprendizaje
 

@@ -2,6 +2,7 @@
 
 ## Docente
 
+- [ ] Cambia entre espanol y aleman y conserva la preferencia al volver a ingresar.
 - [ ] Ingresa con una cuenta `@goethe.edu.ar` no precargada.
 - [ ] Se identifica para el ciclo 2027.
 - [ ] Guarda un borrador y recupera sus datos.
@@ -10,6 +11,7 @@
 
 ## Director
 
+- [ ] Opera paneles, validaciones y reportes completos en espanol y aleman.
 - [ ] Visualiza el avance total del ciclo.
 - [ ] Observa y reabre una presentacion con auditoria.
 - [ ] Define y aprueba la estructura academica.
@@ -18,7 +20,7 @@
 
 ## Administrador
 
+- [ ] Configura bloques horarios del ciclo sin modificar codigo.
 - [ ] Abre y cierra el ciclo de carga.
 - [ ] Gestiona catalogos y roles dentro de su alcance.
 - [ ] Consulta auditoria sin poder modificarla.
-

@@ -14,3 +14,5 @@
 | AJ-010 | 2026-07-14 | Incorporar un ABM anual para fechas, cursos, modalidades, materias, horas de 45 minutos, divisiones y matriz de aplicabilidad/asignacion. | Incorporado | 0-4 |
 | AJ-011 | 2026-07-14 | Definir `Horas 45'` como cantidad semanal de modulos por materia, curso y division; Untis organiza dias y horarios. | Incorporado | 0-5 |
 | AJ-012 | 2026-07-14 | Definir Google SSO como fuente ineditable de email, nombre y apellido; cargo unico y horas frente a curso en modulos semanales de 45 minutos. | Incorporado | 0-2 |
+| AJ-013 | 2026-07-14 | Habilitar toda la aplicacion en espanol y aleman con selector y preferencia persistida por usuario. | Incorporado | 1-6 |
+| AJ-014 | 2026-07-14 | Definir la plantilla de bloques horarios de disponibilidad para el ciclo 2027. | Propuesta pendiente de confirmacion | 0-2 |

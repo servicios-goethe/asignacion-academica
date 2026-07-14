@@ -46,5 +46,4 @@ La configuracion por ciclo evita hardcodear horarios y permite adaptar 2027 sin 
 - `docs/referencias/form-disponibilidad-actual-datos.png`
 - `docs/referencias/form-disponibilidad-actual-horarios.png`
 
-El formulario actual usa textos en espanol y aleman. Queda pendiente confirmar si el requisito bilingue aplica a todo el sistema o solamente al portal docente.
-
+El formulario y el resto del sistema estan disponibles en espanol y aleman. El usuario elige idioma y la aplicacion conserva su preferencia de acuerdo con `docs/IDIOMAS.md`.

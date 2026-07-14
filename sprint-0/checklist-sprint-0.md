@@ -27,7 +27,7 @@
 ## Reglas funcionales
 
 - [x] Definir el 35% como advertencia visible y no bloqueante.
-- [ ] Confirmar bloques horarios 2027 y excepcion de los miercoles.
+- [ ] Confirmar la propuesta concreta de bloques 2027 y resolver el ultimo tramo de los miercoles.
 - [x] Confirmar que cursos, divisiones, modalidades, materias, horas y aplicabilidad varian por ciclo y son administrados por el Director.
 - [x] Confirmar que `Horas 45'` representa modulos semanales; Untis distribuye dias y horarios.
 - [ ] Confirmar reglas particulares para NAT/SOC/ECO, IMA y grupos compartidos.
@@ -53,6 +53,7 @@
 - [ ] Configurar OIDC de GitHub sin secretos persistentes.
 - [ ] Crear un proyecto Google OAuth exclusivo y registrar redirects dev/prod.
 - [ ] Cargar secretos exclusivamente en Key Vault por portal.
+- [x] Confirmar toda la interfaz bilingue ES/DE con selector y preferencia persistida.
 
 ## Cierre
 

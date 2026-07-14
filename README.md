@@ -8,6 +8,7 @@ El primer ciclo objetivo es 2027. El sistema comienza sin una nomina precargada:
 
 - .NET 10 LTS, ASP.NET Core Minimal APIs y EF Core.
 - React, TypeScript y Vite.
+- `react-i18next` para interfaz completa en espanol y aleman.
 - Azure SQL Database.
 - Azure Container Apps, Key Vault, Blob Storage, Application Insights y Log Analytics.
 - Google OAuth para `goethe.edu.ar`.
@@ -21,7 +22,9 @@ El primer ciclo objetivo es 2027. El sistema comienza sin una nomina precargada:
 4. `docs/ROLES_Y_PERMISOS.md`
 5. `docs/DER.md`
 6. `docs/FORMULARIO_DISPONIBILIDAD.md`
-7. `sprint-0/README.md`
+7. `docs/IDIOMAS.md`
+8. `docs/BLOQUES_HORARIOS_2027.md`
+9. `sprint-0/README.md`
 
 ## Estado
 

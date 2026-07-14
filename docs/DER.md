@@ -4,6 +4,13 @@ El modelo se refinara junto con las reglas funcionales y cada migracion EF Core.
 
 ```mermaid
 erDiagram
+    Usuarios {
+      int Id PK
+      string Email UK
+      string Rol
+      string IdiomaPreferido
+      bool Activo
+    }
     CiclosLectivos ||--o{ PerfilesDocentes : contiene
     PerfilesDocentes ||--o{ PerfilesDocentesDepartamentos : integra
     Departamentos ||--o{ PerfilesDocentesDepartamentos : clasifica
@@ -118,4 +125,4 @@ erDiagram
     }
 ```
 
-`Usuarios` mantiene roles privilegiados; la autoalta docente se materializa en `PerfilesDocentes`. Email y nombre provienen de Google SSO y no son editables por el docente. Cada perfil tiene un cargo y puede vincularse con varios `Departamentos`. Los bloques se configuran por ciclo y las selecciones se registran mediante una relacion muchos-a-muchos. `OfertasAcademicas` representa las filas de la matriz y `EspaciosCurriculares` solo sus celdas aplicables; una celda sin registro equivale a "No aplica". `Auditoria` es append-only y referencia actores por email.
+`Usuarios` mantiene roles privilegiados y la preferencia de idioma ES/DE; la autoalta docente se materializa en `PerfilesDocentes`. Email y nombre provienen de Google SSO y no son editables por el docente. Cada perfil tiene un cargo y puede vincularse con varios `Departamentos`. Los bloques se configuran por ciclo y las selecciones se registran mediante una relacion muchos-a-muchos. `OfertasAcademicas` representa las filas de la matriz y `EspaciosCurriculares` solo sus celdas aplicables; una celda sin registro equivale a "No aplica". `Auditoria` es append-only y referencia actores por email.

@@ -14,6 +14,7 @@ No se migraran disponibilidades ni asignaciones historicas. Los catalogos instit
 | --- | --- |
 | Backend | .NET 10 LTS, ASP.NET Core Minimal APIs, EF Core |
 | Frontend | React, TypeScript, Vite, SPA servida por el backend |
+| Idiomas | Espanol y aleman con `react-i18next` y preferencia por usuario |
 | Base de datos | Azure SQL Database, tier Basic inicial |
 | Identidad | Google OAuth, dominio `goethe.edu.ar`, cookie segura |
 | Hosting | Azure Container Apps |
@@ -69,6 +70,7 @@ Objetivo: obtener un esqueleto desplegado en `dev` antes de desarrollar funciona
 Entregables:
 
 - Solucion .NET 10 + React/TypeScript/Vite.
+- Selector ES/DE global, persistencia de preferencia y estructura i18n sin textos de interfaz hardcodeados.
 - `/healthz`, manejo global de errores y telemetria.
 - Azure SQL con migraciones EF Core.
 - Google OAuth restringido a `@goethe.edu.ar`.
@@ -94,6 +96,7 @@ Entregables:
 - Apertura y cierre configurable del periodo de carga.
 - Alta del perfil docente: email, nombre y apellido ineditables desde Google SSO; uno o varios departamentos, un cargo, modulos semanales de 45 minutos frente a curso y observaciones.
 - Grilla semanal configurable de bloques horarios.
+- Plantilla inicial 2027: diez bloques lunes/martes/jueves/viernes y siete bloques los miercoles, sujeta a confirmacion final del ultimo tramo del miercoles.
 - Guardado automatico/borrador, validacion y envio final.
 - Calculo visible de disponibilidad declarada contra horas frente a curso mas 35%; si no alcanza, se muestra una advertencia que no bloquea el envio.
 - Estados: Borrador, Enviada, Observada y Aceptada.
