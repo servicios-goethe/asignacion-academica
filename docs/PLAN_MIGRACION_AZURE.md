@@ -11,6 +11,7 @@ Estado: En curso.
 - Preparar repositorio, backlog, DER y documentacion minima.
 - Confirmar suscripcion, tenant, presupuesto y nombres de recursos.
 - Esperar autorizacion antes de crear recursos Azure.
+- Resource groups dev y prod creados en `brazilsouth` el 2026-07-14; ambos quedaron vacios y listos para el Hito 1.
 
 ## Hito 1 - Infraestructura y esqueleto
 
@@ -63,4 +64,3 @@ Estado: En curso.
 | Base | `sqldb-goethe-asigacad` | `sqldb-goethe-asigacad` |
 
 Los nombres definitivos se validaran por disponibilidad global antes del aprovisionamiento.
-

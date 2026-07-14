@@ -2,6 +2,17 @@
 
 Documento inicial. Se completara durante Sprint 1 con identificadores reales y procedimientos probados.
 
+## Suscripcion y alcance autorizado
+
+- Suscripcion activa: `Treffpunkt Goethe`.
+- Region: `brazilsouth`.
+- Resource group dev: `rg-goethe-asignacion-academica-dev`.
+- Resource group prod: `rg-goethe-asignacion-academica-prod`.
+- Fecha de creacion: 2026-07-14.
+- Estado verificado: `Succeeded`, sin recursos internos.
+
+Toda operacion del proyecto debe quedar limitada a estos dos resource groups. La creacion de servicios internos requiere una autorizacion posterior.
+
 ## Principios
 
 - Dev y prod viven en resource groups separados.
@@ -20,4 +31,3 @@ Documento inicial. Se completara durante Sprint 1 con identificadores reales y p
 - [ ] SHA candidato identificado.
 - [ ] Promocion manual autorizada.
 - [ ] `/healthz` y version desplegada verificados.
-

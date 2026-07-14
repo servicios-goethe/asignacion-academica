@@ -11,6 +11,9 @@ Estado: En curso
 - Sustitucion del stack Next.js/Supabase por el stack Azure institucional.
 - Preparacion de documentacion minima, plan por sprints, DER y backlog.
 - Verificacion de acceso administrativo al repositorio GitHub.
+- Autorizacion del owner para crear exclusivamente los resource groups dev y prod en `brazilsouth`.
+- Creacion satisfactoria de `rg-goethe-asignacion-academica-dev` y `rg-goethe-asignacion-academica-prod` en la suscripcion `Treffpunkt Goethe`.
+- Verificacion posterior: ambos resource groups se encuentran vacios y con estado `Succeeded`.
 
 ## Incidencias y aprendizaje
 
@@ -24,4 +27,3 @@ Estado: En curso
 - Validar reglas funcionales abiertas.
 - Obtener acceso y autorizacion para la suscripcion Azure.
 - Crear infraestructura y esqueleto en Sprint 1.
-

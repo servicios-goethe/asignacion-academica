@@ -36,10 +36,11 @@
 
 ## Azure y Google
 
-- [ ] Confirmar suscripcion y tenant Azure.
+- [x] Confirmar suscripcion y tenant Azure.
 - [ ] Confirmar presupuesto mensual esperado.
 - [ ] Confirmar disponibilidad de `brazilsouth` para los servicios elegidos.
-- [ ] Autorizar creacion de `rg-goethe-asignacion-academica-dev` y `-prod`.
+- [x] Autorizar creacion de `rg-goethe-asignacion-academica-dev` y `-prod`.
+- [x] Crear y verificar ambos resource groups en `brazilsouth`.
 - [ ] Configurar OIDC de GitHub sin secretos persistentes.
 - [ ] Crear un proyecto Google OAuth exclusivo y registrar redirects dev/prod.
 - [ ] Cargar secretos exclusivamente en Key Vault por portal.
@@ -49,4 +50,3 @@
 - [ ] Resolver o aceptar explicitamente los riesgos pendientes.
 - [ ] Aprobar criterios de aceptacion del Sprint 1.
 - [ ] Autorizar inicio del aprovisionamiento Azure.
-
