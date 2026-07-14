@@ -14,6 +14,8 @@ Estado: En curso
 - Autorizacion del owner para crear exclusivamente los resource groups dev y prod en `brazilsouth`.
 - Creacion satisfactoria de `rg-goethe-asignacion-academica-dev` y `rg-goethe-asignacion-academica-prod` en la suscripcion `Treffpunkt Goethe`.
 - Verificacion posterior: ambos resource groups se encuentran vacios y con estado `Succeeded`.
+- Inicio de relevamiento de presupuestos Azure existentes para definir alertas 50/80/100% en dev y prod.
+- Creacion de presupuestos mensuales de USD 50 en dev y prod, con alertas 50/80/100% a `servicios@goethe.edu.ar` y vigencia hasta el 2028-06-30.
 
 ## Incidencias y aprendizaje
 
@@ -21,6 +23,7 @@ Estado: En curso
 | --- | --- | --- |
 | El RFP suponia una nomina docente previa | Se interpreto el proceso actual como fuente maestra | El perfil docente nace de la autenticacion y declaracion anual |
 | El stack propuesto no seguia el estandar institucional | El RFP proponia Vercel y Supabase | Se adopto .NET 10, React, Azure SQL y Container Apps |
+| Azure CLI rechazo el presupuesto por version de interfaz | El comando preview no envio el objeto `filter` requerido en alcance RG | Se utilizo la API estable `2023-11-01` y se versiono el cuerpo en `infra/budget-config.json` |
 
 ## Pendiente
 

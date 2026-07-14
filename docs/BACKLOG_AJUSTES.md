@@ -8,3 +8,4 @@
 | AJ-004 | 2026-07-14 | Consolidar y publicar el proyecto en `servicios-goethe/asignacion-academica`. | En curso | 0 |
 | AJ-005 | 2026-07-14 | Preparar despliegue en la suscripcion Azure activa siguiendo la metodologia institucional. | En curso: RG autorizados | 1 |
 | AJ-006 | 2026-07-14 | Crear exclusivamente los resource groups dev y prod del proyecto en `brazilsouth`. | Completado | 0 |
+| AJ-007 | 2026-07-14 | Configurar presupuestos y alertas de consumo 50/80/100% para dev y prod. | Completado | 0 |

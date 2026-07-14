@@ -12,6 +12,7 @@ Estado: En curso.
 - Confirmar suscripcion, tenant, presupuesto y nombres de recursos.
 - Esperar autorizacion antes de crear recursos Azure.
 - Resource groups dev y prod creados en `brazilsouth` el 2026-07-14; ambos quedaron vacios y listos para el Hito 1.
+- Presupuestos mensuales de USD 50 por ambiente creados hasta el 2028-06-30, con alertas 50/80/100% a `servicios@goethe.edu.ar`.
 
 ## Hito 1 - Infraestructura y esqueleto
 

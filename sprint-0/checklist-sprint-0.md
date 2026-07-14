@@ -37,7 +37,8 @@
 ## Azure y Google
 
 - [x] Confirmar suscripcion y tenant Azure.
-- [ ] Confirmar presupuesto mensual esperado.
+- [x] Confirmar presupuesto mensual esperado: USD 50 por ambiente.
+- [x] Configurar alertas de consumo real al 50/80/100% para dev y prod.
 - [ ] Confirmar disponibilidad de `brazilsouth` para los servicios elegidos.
 - [x] Autorizar creacion de `rg-goethe-asignacion-academica-dev` y `-prod`.
 - [x] Crear y verificar ambos resource groups en `brazilsouth`.

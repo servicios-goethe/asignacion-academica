@@ -13,6 +13,15 @@ Documento inicial. Se completara durante Sprint 1 con identificadores reales y p
 
 Toda operacion del proyecto debe quedar limitada a estos dos resource groups. La creacion de servicios internos requiere una autorizacion posterior.
 
+## Presupuestos
+
+| Ambiente | Presupuesto | Importe | Vigencia | Alertas |
+| --- | --- | ---: | --- | --- |
+| Dev | `budget-goethe-asignacion-academica-dev` | USD 50/mes | 2026-07-01 a 2028-06-30 | 50%, 80% y 100% a `servicios@goethe.edu.ar` |
+| Prod | `budget-goethe-asignacion-academica-prod` | USD 50/mes | 2026-07-01 a 2028-06-30 | 50%, 80% y 100% a `servicios@goethe.edu.ar` |
+
+Los presupuestos generan notificaciones sobre consumo real. No constituyen topes de gasto ni detienen recursos automaticamente. La configuracion declarativa se conserva en `infra/budget-config.json`.
+
 ## Principios
 
 - Dev y prod viven en resource groups separados.

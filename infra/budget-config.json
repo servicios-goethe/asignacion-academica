@@ -1,0 +1,47 @@
+{
+  "properties": {
+    "category": "Cost",
+    "amount": 50,
+    "timeGrain": "Monthly",
+    "timePeriod": {
+      "startDate": "2026-07-01T00:00:00Z",
+      "endDate": "2028-06-30T00:00:00Z"
+    },
+    "filter": {},
+    "notifications": {
+      "alerta50": {
+        "enabled": true,
+        "operator": "GreaterThan",
+        "threshold": 50,
+        "thresholdType": "Actual",
+        "contactEmails": [
+          "servicios@goethe.edu.ar"
+        ],
+        "contactRoles": [],
+        "contactGroups": []
+      },
+      "alerta80": {
+        "enabled": true,
+        "operator": "GreaterThan",
+        "threshold": 80,
+        "thresholdType": "Actual",
+        "contactEmails": [
+          "servicios@goethe.edu.ar"
+        ],
+        "contactRoles": [],
+        "contactGroups": []
+      },
+      "alerta100": {
+        "enabled": true,
+        "operator": "GreaterThan",
+        "threshold": 100,
+        "thresholdType": "Actual",
+        "contactEmails": [
+          "servicios@goethe.edu.ar"
+        ],
+        "contactRoles": [],
+        "contactGroups": []
+      }
+    }
+  }
+}
