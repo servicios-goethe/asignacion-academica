@@ -19,12 +19,11 @@ Las preguntas sobre existencia de una nomina previa quedan cerradas: no existe y
 
 ## Estructura y Untis
 
-1. `Horas 45'` representa cantidad semanal de modulos o una distribucion por cada dia?
-2. Como se modelan las excepciones NAT/SOC/ECO, IMA y grupos compartidos dentro de la matriz anual?
-3. Una misma celda materia-division puede requerir mas de un docente?
-4. De donde surgen los codigos Untis de docentes que se autoinscriben?
-5. Que version de Untis y variante exacta de GPU014 se usa?
-6. Las aulas forman parte del alcance de exportacion?
+1. Como se modelan las excepciones NAT/SOC/ECO, IMA y grupos compartidos dentro de la matriz anual?
+2. Una misma celda materia-division puede requerir mas de un docente?
+3. De donde surgen los codigos Untis de docentes que se autoinscriben?
+4. Que version de Untis y variante exacta de GPU014 se usa?
+5. Las aulas forman parte del alcance de exportacion?
 
 ## Infraestructura
 

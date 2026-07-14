@@ -38,9 +38,9 @@ El Director puede agregar, editar, desactivar y ordenar filas; crear divisiones;
 
 ## Horas
 
-La interpretacion actual de `Horas 45'` es cantidad semanal de modulos de 45 minutos. Es la carga predeterminada de la fila para todas las divisiones aplicables. Cada celda puede admitir una carga diferente cuando una division sea una excepcion, conservando la carga de la fila como valor por defecto.
+`Horas 45'` es la cantidad semanal de modulos de 45 minutos por materia, curso y division. Es la carga predeterminada de la fila para todas las divisiones aplicables. Cada celda puede admitir una carga diferente cuando una division sea una excepcion, conservando la carga de la fila como valor por defecto.
 
-La matriz define carga academica semanal, no el dia y hora concretos de dictado. La calendarizacion corresponde a Untis. Esta interpretacion debe confirmarse con Direccion; si se requiere distribuir horas por dia desde este sistema, sera una dimension funcional adicional.
+La matriz define carga academica semanal, no el dia y hora concretos de dictado. La distribucion en dias y horarios corresponde exclusivamente a Untis y queda fuera del alcance de este sistema.
 
 ## Separacion entre estructura y asignacion
 

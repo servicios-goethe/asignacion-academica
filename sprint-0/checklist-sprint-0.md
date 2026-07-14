@@ -27,7 +27,7 @@
 - [x] Definir el 35% como advertencia visible y no bloqueante.
 - [ ] Confirmar bloques horarios 2027 y excepcion de los miercoles.
 - [x] Confirmar que cursos, divisiones, modalidades, materias, horas y aplicabilidad varian por ciclo y son administrados por el Director.
-- [ ] Confirmar que `Horas 45'` representa modulos semanales y no una distribucion por dia.
+- [x] Confirmar que `Horas 45'` representa modulos semanales; Untis distribuye dias y horarios.
 - [ ] Confirmar reglas particulares para NAT/SOC/ECO, IMA y grupos compartidos.
 - [ ] Confirmar reglas de talleres y redondeos.
 - [ ] Confirmar estados y responsables de aprobacion/reapertura.

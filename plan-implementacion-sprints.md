@@ -116,7 +116,7 @@ Entregables:
 - Tablero de avance, filtros, pendientes, observadas e insuficiencias.
 - Configuracion del ciclo con fechas de apertura y cierre de disponibilidad.
 - ABM anual de cursos, divisiones, modalidades, materias, grupos y talleres.
-- Matriz anual con horas de 45 minutos, celdas aplicables/no aplicables y excepciones de carga por division.
+- Matriz anual con cantidad semanal de modulos de 45 minutos por materia, curso y division, celdas aplicables/no aplicables y excepciones de carga por division.
 - Horas catedra, codigos Untis y reglas de replicacion.
 - Estados de estructura: En desarrollo, Finalizada, Aprobada y Reabierta.
 - Validaciones de completitud y auditoria transaccional.
@@ -127,6 +127,7 @@ Criterios de aceptacion:
 - No puede aprobar una estructura incompleta.
 - Las materias comunes y de modalidad se aplican solo a las divisiones definidas por el Director.
 - Las celdas deshabilitadas no generan espacios curriculares ni admiten asignaciones.
+- La aplicacion no distribuye modulos por dia u horario; esa calendarizacion corresponde a Untis.
 
 ## Sprint 4: Asignacion docente
 

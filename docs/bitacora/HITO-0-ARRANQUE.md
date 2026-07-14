@@ -19,6 +19,7 @@ Estado: En curso
 - Definicion de referentes mediante perfiles: Director para validacion funcional, Admin para validacion tecnica y `servicios@goethe.edu.ar` como unico Superadmin fijo.
 - Confirmacion de varios departamentos por docente y advertencia no bloqueante cuando la disponibilidad no alcanza el minimo del 35% adicional.
 - Confirmacion de estructura anual configurable por el Director: fechas, cursos, modalidades, materias, horas de 45 minutos, divisiones y matriz de aplicabilidad/asignacion.
+- Confirmacion de `Horas 45'` como cantidad semanal de modulos por materia, curso y division; la distribucion diaria queda en Untis.
 
 ## Incidencias y aprendizaje
 

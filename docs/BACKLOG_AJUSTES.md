@@ -12,3 +12,4 @@
 | AJ-008 | 2026-07-14 | Definir referentes por perfil: Director como referente funcional, Admin como referente tecnico y `servicios@goethe.edu.ar` como Superadmin fijo. | Incorporado | 0-1 |
 | AJ-009 | 2026-07-14 | Permitir varios departamentos por docente y tratar el minimo de disponibilidad del 35% como advertencia no bloqueante. | Incorporado | 0-2 |
 | AJ-010 | 2026-07-14 | Incorporar un ABM anual para fechas, cursos, modalidades, materias, horas de 45 minutos, divisiones y matriz de aplicabilidad/asignacion. | Incorporado | 0-4 |
+| AJ-011 | 2026-07-14 | Definir `Horas 45'` como cantidad semanal de modulos por materia, curso y division; Untis organiza dias y horarios. | Incorporado | 0-5 |
