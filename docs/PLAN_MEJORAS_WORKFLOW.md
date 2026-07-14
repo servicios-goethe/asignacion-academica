@@ -1,0 +1,17 @@
+# Plan de mejoras y workflow
+
+## Lote 001 - Replanteo inicial
+
+Fecha: 2026-07-14  
+Estado: En curso
+
+Incluye:
+
+- AJ-001: adopcion del stack Azure institucional.
+- AJ-002: inicio limpio del ciclo 2027.
+- AJ-003: autoalta docente por dominio Google Workspace.
+- AJ-004: consolidacion del repositorio GitHub.
+- AJ-005: preparacion del despliegue Azure.
+
+Criterio de cierre: documentacion publicada en GitHub, arquitectura aprobada y prerrequisitos de Sprint 1 identificados. La creacion de recursos Azure requiere autorizacion expresa.
+
