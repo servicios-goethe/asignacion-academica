@@ -13,10 +13,10 @@ Las preguntas sobre existencia de una nomina previa quedan cerradas: no existe y
 
 ## Flujo y permisos
 
-1. Quien sera Director funcional y quien podra reemplazarlo?
-2. Asuntos Educativos requiere un rol independiente?
-3. Quien puede observar, aceptar y reabrir una presentacion?
-4. Quien puede aprobar estructura y finalizar asignaciones?
+1. Asuntos Educativos requiere un rol independiente o alcanza con asignarle perfil `Director`?
+2. Puede haber varios usuarios con perfil `Director` o `Admin` desde el primer lanzamiento?
+3. Que acciones sensibles quedan reservadas exclusivamente al Superadmin?
+4. El perfil `Director` puede observar, aceptar, reabrir, aprobar estructura y finalizar asignaciones, o alguna accion requiere un alcance adicional?
 
 ## Estructura y Untis
 
@@ -32,4 +32,3 @@ Las preguntas sobre existencia de una nomina previa quedan cerradas: no existe y
 2. Cual es el presupuesto mensual objetivo para dev y prod?
 3. Que dominio o subdominios se usaran para cada ambiente?
 4. Quien cargara secretos y configuracion OAuth en los portales?
-

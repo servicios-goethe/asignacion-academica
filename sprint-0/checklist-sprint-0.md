@@ -6,8 +6,10 @@
 - [x] Confirmar owner tecnico `servicios@goethe.edu.ar`.
 - [x] Incorporar metodologia Azure institucional.
 - [x] Crear backlog, plan de mejoras y bitacora.
-- [ ] Confirmar sponsor y referente funcional de Direccion.
-- [ ] Confirmar referente tecnico de Untis.
+- [x] Definir al perfil `Director` como referente funcional de Direccion.
+- [x] Definir al perfil `Admin` como referente tecnico.
+- [x] Confirmar `servicios@goethe.edu.ar` como unico Superadmin fijo.
+- [ ] Identificar al sponsor organizacional para prioridades y aprobacion ejecutiva; no afecta permisos del sistema.
 
 ## Alcance 2027
 

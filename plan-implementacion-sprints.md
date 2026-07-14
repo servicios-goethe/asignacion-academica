@@ -34,7 +34,7 @@ Los ambientes quedan aislados en `rg-goethe-asignacion-academica-dev` y `rg-goet
 - Administrador tecnico: administra ciclos, catalogos y usuarios privilegiados.
 - Superadministrador: `servicios@goethe.edu.ar`, definido en codigo.
 
-El dominio habilita la entrada docente, pero no otorga roles administrativos. Director y Administrador requieren alta explicita en la tabla `Usuarios`.
+El dominio habilita la entrada docente, pero no otorga roles administrativos. Director y Administrador requieren alta explicita en la tabla `Usuarios` y funcionan respectivamente como referente funcional y tecnico. Sus titulares pueden cambiar por datos; el unico email fijo en codigo es el del Superadministrador.
 
 ## Cadencia y gobierno
 

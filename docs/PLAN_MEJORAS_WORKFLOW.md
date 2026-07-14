@@ -14,5 +14,6 @@ Incluye:
 - AJ-005: preparacion del despliegue Azure.
 - AJ-006: creacion autorizada de los resource groups exclusivos del proyecto.
 - AJ-007: presupuestos y alertas de consumo para ambos ambientes.
+- AJ-008: referentes funcional y tecnico resueltos por perfiles; solo el Superadmin queda fijo por email.
 
 Criterio de cierre: documentacion publicada en GitHub, arquitectura aprobada y prerrequisitos de Sprint 1 identificados. La creacion de recursos Azure requiere autorizacion expresa.
