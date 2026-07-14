@@ -1,6 +1,6 @@
 # Bloques horarios de disponibilidad 2027
 
-Estado: Propuesta pendiente de confirmacion final.
+Estado: Confirmado.
 
 Los bloques son configuracion del ciclo 2027 y pueden editarse mediante el ABM. No quedan hardcodeados en la aplicacion.
 
@@ -28,10 +28,8 @@ Los bloques son configuracion del ciclo 2027 y pueden editarse mediante el ABM. 
 | 3 | 09:30 | 10:15 |
 | 4 | 10:15 | 11:00 |
 | 5 | 11:10 | 11:55 |
-| 6 | 11:55 | 12:40 |
-| 7 | 12:45 | 13:30 |
+| 6 | 11:55 | 12:30 |
 
-## Diferencia detectada
+## Criterio aplicado
 
-El formulario actual rotula el miercoles como `07:45 a 13:30`, pero la captura visible muestra solo seis opciones y la ultima parece finalizar a las 12:30. La propuesta normaliza el sexto modulo hasta las 12:40 y agrega el septimo de 12:45 a 13:30. Direccion debe confirmar estos dos horarios antes de cerrar Sprint 0.
-
+La plantilla respeta exactamente los bloques seleccionables del Forms actual. Aunque el encabezado menciona `07:45 a 13:30`, no se agrega un bloque que no figure como opcion: el miercoles contiene seis bloques y finaliza a las 12:30.

@@ -12,7 +12,7 @@ No se migran disponibilidades ni asignaciones historicas. La nomina docente 2027
 | Bloques disponibles | Dato nuevo | Declarado por el docente | Por validar | Analisis y conflictos |
 | Departamentos | Catalogo | Direccion | Pendiente | Selector multiple y filtros |
 | Cargos | Catalogo | Direccion | Pendiente | Selector y reglas |
-| Bloques horarios | Catalogo por ciclo | Direccion | Propuesta preparada | Grilla 2027; pendiente confirmar ultimo tramo del miercoles |
+| Bloques horarios | Catalogo por ciclo | Direccion | Definido | Plantilla 2027 basada en opciones del Forms actual |
 | Cargos | Catalogo | Admin | Referencia disponible | Seleccion unica |
 | Niveles, divisiones y modalidades | Catalogo | Direccion | Pendiente | Estructura academica |
 | Materias y talleres | Catalogo | Direccion/Untis | Pendiente | Estructura y exportacion |

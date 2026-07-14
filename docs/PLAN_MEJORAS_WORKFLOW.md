@@ -20,6 +20,6 @@ Incluye:
 - AJ-011: limite funcional confirmado entre carga semanal del sistema y calendarizacion en Untis.
 - AJ-012: contrato del formulario docente basado en Google SSO y referencia visual del formulario actual.
 - AJ-013: interfaz completa bilingue ES/DE con seleccion por usuario.
-- AJ-014: propuesta concreta de bloques horarios 2027 basada en el formulario actual.
+- AJ-014: bloques horarios 2027 confirmados segun las opciones seleccionables del Forms actual.
 
 Criterio de cierre: documentacion publicada en GitHub, arquitectura aprobada y prerrequisitos de Sprint 1 identificados. La creacion de recursos Azure requiere autorizacion expresa.

@@ -96,7 +96,7 @@ Entregables:
 - Apertura y cierre configurable del periodo de carga.
 - Alta del perfil docente: email, nombre y apellido ineditables desde Google SSO; uno o varios departamentos, un cargo, modulos semanales de 45 minutos frente a curso y observaciones.
 - Grilla semanal configurable de bloques horarios.
-- Plantilla inicial 2027: diez bloques lunes/martes/jueves/viernes y siete bloques los miercoles, sujeta a confirmacion final del ultimo tramo del miercoles.
+- Plantilla inicial 2027: diez bloques lunes/martes/jueves/viernes y seis bloques los miercoles, respetando las opciones del Forms actual.
 - Guardado automatico/borrador, validacion y envio final.
 - Calculo visible de disponibilidad declarada contra horas frente a curso mas 35%; si no alcanza, se muestra una advertencia que no bloquea el envio.
 - Estados: Borrador, Enviada, Observada y Aceptada.

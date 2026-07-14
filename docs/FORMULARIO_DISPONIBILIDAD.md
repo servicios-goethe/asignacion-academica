@@ -25,7 +25,7 @@ Los cargos actuales observados son Jefe de departamento, Tutor, Full time, Part 
 ## Grilla horaria
 
 - Los bloques pertenecen al ciclo lectivo y son configurables.
-- La referencia 2026 contiene una grilla para lunes, martes, jueves y viernes entre 7:45 y 16:30, y otra para miercoles entre 7:45 y 13:30.
+- La referencia contiene diez bloques para lunes, martes, jueves y viernes, y seis bloques para los miercoles. La plantilla exacta se documenta en `docs/BLOQUES_HORARIOS_2027.md`.
 - El docente marca unicamente bloques en los que tiene disponibilidad.
 - El sistema calcula la cantidad de modulos seleccionados.
 - Si la disponibilidad no alcanza las horas frente a curso mas 35%, muestra una advertencia visible y permite enviar igualmente.

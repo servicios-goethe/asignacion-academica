@@ -5,8 +5,7 @@ Las preguntas sobre existencia de una nomina previa quedan cerradas: no existe y
 ## Disponibilidad docente
 
 1. Las horas declaradas requieren validacion posterior de Direccion o RRHH?
-2. Se confirma para los miercoles el bloque 6 de 11:55 a 12:40 y el bloque 7 de 12:45 a 13:30?
-3. Que texto institucional debe explicar la advertencia del 35% al docente?
+2. Que texto institucional debe explicar la advertencia del 35% al docente?
 
 ## Flujo y permisos
 

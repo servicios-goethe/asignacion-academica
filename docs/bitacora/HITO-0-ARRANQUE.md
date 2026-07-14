@@ -23,7 +23,7 @@ Estado: En curso
 - Confirmacion de Google SSO como fuente ineditable de email, nombre y apellido; un cargo por docente y horas frente a curso en modulos semanales de 45 minutos.
 - Incorporacion al repositorio de las capturas del formulario 2026 como evidencia funcional.
 - Confirmacion de interfaz completa bilingue espanol/aleman con selector y preferencia persistida por usuario.
-- Elaboracion de propuesta de bloques 2027; queda pendiente confirmar el sexto y septimo bloque de los miercoles por inconsistencia en el formulario actual.
+- Confirmacion de bloques 2027 segun las opciones seleccionables del Forms actual: diez bloques lunes/martes/jueves/viernes y seis los miercoles, sin agregar un septimo bloque.
 
 ## Incidencias y aprendizaje
 

@@ -27,7 +27,7 @@
 ## Reglas funcionales
 
 - [x] Definir el 35% como advertencia visible y no bloqueante.
-- [ ] Confirmar la propuesta concreta de bloques 2027 y resolver el ultimo tramo de los miercoles.
+- [x] Confirmar bloques 2027 segun el Forms: diez bloques lunes/martes/jueves/viernes y seis los miercoles.
 - [x] Confirmar que cursos, divisiones, modalidades, materias, horas y aplicabilidad varian por ciclo y son administrados por el Director.
 - [x] Confirmar que `Horas 45'` representa modulos semanales; Untis distribuye dias y horarios.
 - [ ] Confirmar reglas particulares para NAT/SOC/ECO, IMA y grupos compartidos.
