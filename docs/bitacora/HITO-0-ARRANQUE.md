@@ -27,6 +27,7 @@ Estado: En curso
 - Actualizacion de la metodologia Azure a version 2.0: consulta obligatoria de dimensionamiento, comparacion de arquitecturas, puerta de aprobacion G1 y medicion de costo/rendimiento a 7/30 dias.
 - Reescritura de `SEGURIDAD_ISO27001.md` para separar requisitos del SGSI (clausulas 4 a 10), controles del Anexo A y responsabilidades tecnicas e institucionales.
 - Preparacion de `DIMENSIONAMIENTO_Y_COSTOS.md` como propuesta G1: alternativa administrada de bajo costo, supuestos de carga, presupuesto, objetivos p95, RTO/RPO, umbrales y medicion posterior.
+- Aprobacion de G1 por el owner: 80 docentes, 40 simultaneos como estres extremo, pico operativo de cuatro semanas, p95 confirmado, RTO 8 horas, RPO 24 horas y presupuesto normal de USD 50 por ambiente.
 
 ## Incidencias y aprendizaje
 
@@ -38,6 +39,7 @@ Estado: En curso
 | El stack institucional fijaba algunos SKU antes de conocer la carga | La metodologia usaba una arquitectura de referencia como decision universal | Se separaron estandares de aplicacion y seguridad de la seleccion de servicios, que ahora exige dimensionamiento y comparacion de costos vigentes |
 | La documentacion ISO 27001 mencionaba solo el Anexo A | Se habia registrado un recorte tecnico orientado a controles de aplicacion | Se incorporaron gobierno del SGSI, gestion de riesgos, responsabilidades, evidencia y limites de la declaracion de alineacion |
 | No existia un dimensionamiento formal antes de Sprint 1 | El uso esperado era bajo pero no estaba cuantificado | Se documento una propuesta con margen de carga y aprobacion G1 pendiente antes de crear servicios Azure |
+| Los supuestos iniciales sobredimensionaban la primera etapa | Se uso un escenario generico antes de confirmar la cantidad real de docentes | Direccion confirmo 80 docentes y ajusto la prueba extrema a 40 simultaneos con pico de cuatro semanas |
 
 ## Pendiente
 

@@ -29,7 +29,7 @@ El primer ciclo objetivo es 2027. El sistema comienza sin una nomina precargada:
 
 ## Estado
 
-Sprint 0 en curso. La propuesta G1 esta documentada y espera validacion de supuestos por el owner. No se crean servicios Azure hasta cerrar G1.
+Sprint 0 cerrado en lo referido a dimensionamiento: G1 aprobado por el owner el 2026-07-22. Sprint 1 puede comenzar; el aprovisionamiento verifica precios y SKU antes de crear servicios.
 
 ## Repositorio
 

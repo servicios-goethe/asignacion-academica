@@ -4,7 +4,7 @@ Aunque el sistema es nuevo y no una migracion, este documento conserva el nombre
 
 ## Hito 0 - Definicion
 
-Estado: En curso; dimensionamiento G1 documentado y pendiente de aprobacion del owner.
+Estado: En curso; dimensionamiento G1 aprobado por el owner el 2026-07-22.
 
 - Corregir la vision funcional del ciclo 2027.
 - Definir roles, reglas academicas y contrato GPU014.
@@ -17,9 +17,9 @@ Estado: En curso; dimensionamiento G1 documentado y pendiente de aprobacion del 
 
 ## Hito 1 - Infraestructura y esqueleto
 
-Inicio condicionado a la aprobacion G1 y a la verificacion final de precios y
-SKU en la suscripcion. El primer bloque de trabajo puede ser local y no genera
-consumo Azure.
+Inicio habilitado por G1. La verificacion final de precios y SKU en la
+suscripcion precede al aprovisionamiento; el primer bloque de trabajo puede
+ser local y no genera consumo Azure.
 
 - Crear exclusivamente `rg-goethe-asignacion-academica-dev` y `rg-goethe-asignacion-academica-prod` en `brazilsouth`.
 - Configurar presupuestos y alertas 50/80/100%.

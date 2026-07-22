@@ -1,7 +1,7 @@
 # Dimensionamiento y costos - Asignacion Academica
 
-Version 1.0 - 2026-07-22
-Estado: Propuesta para aprobacion G1
+Version 1.1 - 2026-07-22
+Estado: G1 aprobado por el owner
 
 ## 1. Decision ejecutiva
 
@@ -27,35 +27,37 @@ Goethe`. Ningun tier se considera definitivo.
 ## 2. Perfil de uso
 
 No existen mediciones historicas porque el sistema comienza vacio para el
-ciclo 2027. Los siguientes valores son **supuestos de dimensionamiento**, no
-datos confirmados de negocio. Deben ser validados por Direccion antes de marcar
-G1 como aprobado.
+ciclo 2027. Los siguientes valores son **supuestos de dimensionamiento**
+confirmados por el owner para la primera etapa; se reemplazaran por metricas
+reales despues del despliegue.
 
 | Variable | Supuesto inicial | Margen para prueba | Fuente / observacion |
 | --- | ---: | ---: | --- |
-| Docentes potenciales | 300 | 500 | Supuesto conservador; confirmar nomina esperada |
-| Usuarios administrativos | 10 | 20 | Director, Admin y soporte |
-| Usuarios activos mensuales | 300 | 500 | Alta concentrada al inicio del ciclo |
+| Docentes potenciales | 80 | 80 | Primera etapa confirmada por el owner |
+| Usuarios administrativos | 10 | 15 | Director, Admin y soporte |
+| Usuarios activos mensuales | 80 | 95 | Alta concentrada al inicio del ciclo |
 | Concurrencia normal | 5 | 15 | Uso individual durante jornada |
-| Concurrencia pico | 40 | 75 | Campana de apertura o cierre |
+| Concurrencia pico esperada | 10 | 10 | Uso normal durante apertura/cierre |
+| Concurrencia de estres | 40 | 40 | Caso extremo y muy improbable; limite de prueba |
 | Solicitudes HTTP normales | 2 req/s | 10 req/s | CRUD, grillas y consultas |
-| Solicitudes HTTP pico | 8 req/s | 20 req/s | Carga coordinada de disponibilidad |
+| Solicitudes HTTP pico | 5 req/s | 10 req/s | Carga coordinada de disponibilidad |
 | Datos estructurados iniciales | < 1 GB | 2 GB | Perfiles, disponibilidad, estructura y auditoria |
 | Crecimiento anual de datos | < 1 GB | 3 GB | Un ciclo anual y auditoria |
 | Archivos | < 500 MB | 2 GB | Exportaciones y archivos controlados de Untis |
-| Operacion | Intermitente y estacional | Picos de 2 a 4 semanas | No se espera uso continuo de alta carga |
+| Operacion | Intermitente y estacional | Pico de 4 semanas | Luego uso aislado durante el resto del ano |
 | Ambientes | Dev y prod | UAT dentro de dev | Separacion de RG y secretos |
 
 ### 2.1 Datos que deben confirmar Direccion
 
-- Cantidad real de docentes que podrian declarar disponibilidad.
-- Cantidad de usuarios administrativos y revisores simultaneos.
-- Fecha y duracion de la ventana de apertura y cierre 2027.
-- Si la plataforma debe responder inmediatamente fuera de la campana.
-- Si se conservaran historicos por ciclo y durante cuantos anos.
+Las cifras de esta seccion fueron confirmadas por el owner el 2026-07-22:
 
-Mientras no se confirmen, se mantiene el margen de prueba de 75 usuarios
-concurrentes y 20 req/s.
+- 80 docentes en la primera etapa.
+- 40 usuarios simultaneos como escenario de estres muy exagerado, no como
+  concurrencia esperada.
+- Cuatro semanas de pico de proceso y uso aislado durante el resto del ano.
+
+Pendiente operativo: confirmar la fecha exacta de apertura/cierre y la
+retencion de historicos por ciclo antes de definir backups definitivos.
 
 ## 3. Objetivos de rendimiento y continuidad
 
@@ -65,7 +67,7 @@ concurrentes y 20 req/s.
 | Latencia p95 grilla/matriz | <= 5 s | <= 3 s | Paginacion, indices y capacidad SQL |
 | Error rate | < 1% | < 0,5% | Investigar antes de ampliar capacidad |
 | Cold start | <= 15 s aceptable | No durante ventana activa | Mantener replica minima activa |
-| Concurrencia probada | 15 | 75 | Probar con datos representativos |
+| Concurrencia probada | 15 | 40 | El escenario de 40 es una prueba de estres extrema |
 | Disponibilidad | Durante pruebas | Ventana de servicio acordada | Alta disponibilidad solo si el RTO lo exige |
 | RTO | Por confirmar | Objetivo inicial <= 8 h | Backup/restore y runbook |
 | RPO | Por confirmar | Objetivo inicial <= 24 h | Ajustar backup segun impacto |
@@ -145,9 +147,9 @@ alertas 50/80/100% ya creadas notifican consumo, pero no detienen recursos.
 
 | Escenario | Hipotesis | Estimacion anual orientativa |
 | --- | --- | ---: |
-| Normal | 10 meses bajos + 2 meses activos, sin upgrade mayor | USD 180-720 |
-| Campana intensa | 2 meses pico con SQL superior y mayor telemetria | USD 300-1.100 |
-| Crecimiento | 500 usuarios y uso continuo, upgrade persistente | Recalcular despues de 30 dias de metrica |
+| Normal | 48 semanas de uso bajo/aislado + 4 semanas activas, sin upgrade mayor | USD 120-360 |
+| Campana intensa | 4 semanas pico con SQL superior y mayor telemetria | USD 180-550 |
+| Crecimiento | Mas de 80 docentes o uso continuo no previsto | Recalcular antes de ampliar |
 
 Estos rangos sirven para decidir y no para facturacion. La factura real se
 controlara en Cost Management y se comparara con los supuestos.
@@ -207,21 +209,22 @@ Despues de desplegar dev:
 
 ## 9. Decision G1
 
-**Estado actual: Propuesta pendiente de aprobacion del owner.**
+**Estado: APROBADO por el owner el 2026-07-22.**
 
-Se solicita aprobar o corregir estos supuestos concretos:
+Decisiones aprobadas:
 
-1. 300 docentes potenciales y 500 como margen.
-2. 40 usuarios concurrentes esperados y 75 como carga de prueba.
-3. Picos concentrados en 2 a 4 semanas.
-4. Objetivo de p95 de 2 segundos para CRUD y 3 segundos para matriz en prod.
+1. 80 docentes en la primera etapa.
+2. 40 usuarios simultaneos como escenario de estres extremo, no esperado.
+3. Pico de proceso de cuatro semanas y uso aislado el resto del ano.
+4. p95 de 2 segundos para operaciones y 3 segundos para la matriz en prod.
 5. SQL gratuita para dev si la suscripcion la habilita y SQL Basic para prod.
 6. Presupuesto normal de hasta USD 50 por ambiente y alertas 50/80/100%.
-7. RTO inicial de 8 horas y RPO inicial de 24 horas, sujetos a confirmacion.
+7. RTO inicial de 8 horas y RPO inicial de 24 horas.
 
-La aprobacion puede registrarse en este mismo documento con fecha, responsable
-y observaciones. Hasta entonces se puede construir el esqueleto local, pero no
-se marca G1 como cerrado ni se crean servicios Azure pagos.
+Responsable de aprobacion: Joaquin Salas, `servicios@goethe.edu.ar`. La
+arquitectura puede pasar a Sprint 1. Los SKU se vuelven a verificar en la
+suscripcion antes de aprovisionar y la prueba de carga conserva el escenario
+extremo de 40 usuarios.
 
 ## 10. Referencias de precios y producto
 

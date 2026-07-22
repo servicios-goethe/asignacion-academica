@@ -34,6 +34,6 @@ Dejar una base acordada y auditable, incluyendo la puerta G1, antes de crear ser
 - [x] Resource groups dev/prod y presupuestos con alertas creados.
 - [ ] Reglas abiertas validadas por Direccion.
 - [x] Acceso Azure disponible para el alcance del proyecto.
-- [ ] Supuestos y arquitectura de `DIMENSIONAMIENTO_Y_COSTOS.md` aprobados por el owner (G1).
+- [x] Supuestos y arquitectura de `DIMENSIONAMIENTO_Y_COSTOS.md` aprobados por el owner (G1, 2026-07-22).
 - [ ] Autorizacion expresa para crear los servicios seleccionados.
 - [ ] Sprint 1 refinado y aprobado.

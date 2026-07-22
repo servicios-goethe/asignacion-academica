@@ -23,6 +23,6 @@ Incluye:
 - AJ-014: bloques horarios 2027 confirmados segun las opciones seleccionables del Forms actual.
 - AJ-015: metodologia Azure revisada para consultar dimensionamiento, comparar alternativas y aprobar costo/rendimiento antes de desplegar infraestructura.
 - AJ-016: documento de seguridad ampliado para integrar gobierno del SGSI, Anexo A, gestion de riesgos, evidencia y condiciones de salida a produccion.
-- AJ-017: propuesta de dimensionamiento G1 creada con supuestos de uso 2027, alternativas SQL, presupuesto, objetivos p95, escalado y plan de medicion; pendiente de aprobacion del owner.
+- AJ-017: dimensionamiento G1 aprobado por el owner: 80 docentes, 40 simultaneos como estres extremo, pico de cuatro semanas, objetivos p95, RTO/RPO, presupuesto y baseline Azure.
 
 Criterio de cierre: documentacion publicada en GitHub, arquitectura aprobada y prerrequisitos de Sprint 1 identificados. La creacion de recursos Azure requiere autorizacion expresa.

@@ -65,7 +65,7 @@ Entregables:
 
 Criterio de cierre: decisiones criticas registradas, acceso GitHub confirmado,
 dimensionamiento G1 aprobado por Joaquin y autorizacion antes de crear
-recursos Azure.
+recursos Azure. Estado: cumplido el 2026-07-22.
 
 ## Sprint 1: Fundacion, seguridad y CI/CD
 
