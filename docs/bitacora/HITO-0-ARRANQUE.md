@@ -25,6 +25,7 @@ Estado: En curso
 - Confirmacion de interfaz completa bilingue espanol/aleman con selector y preferencia persistida por usuario.
 - Confirmacion de bloques 2027 segun las opciones seleccionables del Forms actual: diez bloques lunes/martes/jueves/viernes y seis los miercoles, sin agregar un septimo bloque.
 - Actualizacion de la metodologia Azure a version 2.0: consulta obligatoria de dimensionamiento, comparacion de arquitecturas, puerta de aprobacion G1 y medicion de costo/rendimiento a 7/30 dias.
+- Reescritura de `SEGURIDAD_ISO27001.md` para separar requisitos del SGSI (clausulas 4 a 10), controles del Anexo A y responsabilidades tecnicas e institucionales.
 
 ## Incidencias y aprendizaje
 
@@ -34,6 +35,7 @@ Estado: En curso
 | El stack propuesto no seguia el estandar institucional | El RFP proponia Vercel y Supabase | Se adopto .NET 10, React, Azure SQL y Container Apps |
 | Azure CLI rechazo el presupuesto por version de interfaz | El comando preview no envio el objeto `filter` requerido en alcance RG | Se utilizo la API estable `2023-11-01` y se versiono el cuerpo en `infra/budget-config.json` |
 | El stack institucional fijaba algunos SKU antes de conocer la carga | La metodologia usaba una arquitectura de referencia como decision universal | Se separaron estandares de aplicacion y seguridad de la seleccion de servicios, que ahora exige dimensionamiento y comparacion de costos vigentes |
+| La documentacion ISO 27001 mencionaba solo el Anexo A | Se habia registrado un recorte tecnico orientado a controles de aplicacion | Se incorporaron gobierno del SGSI, gestion de riesgos, responsabilidades, evidencia y limites de la declaracion de alineacion |
 
 ## Pendiente
 
