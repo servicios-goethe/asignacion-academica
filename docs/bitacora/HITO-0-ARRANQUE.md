@@ -28,6 +28,7 @@ Estado: En curso
 - Reescritura de `SEGURIDAD_ISO27001.md` para separar requisitos del SGSI (clausulas 4 a 10), controles del Anexo A y responsabilidades tecnicas e institucionales.
 - Preparacion de `DIMENSIONAMIENTO_Y_COSTOS.md` como propuesta G1: alternativa administrada de bajo costo, supuestos de carga, presupuesto, objetivos p95, RTO/RPO, umbrales y medicion posterior.
 - Aprobacion de G1 por el owner: 80 docentes, 40 simultaneos como estres extremo, pico operativo de cuatro semanas, p95 confirmado, RTO 8 horas, RPO 24 horas y presupuesto normal de USD 50 por ambiente.
+- Inicio de Sprint 1: solucion .NET 10, frontend React/Vite bilingue, `/healthz`, `/api/config`, test de contrato y workflow CI.
 
 ## Incidencias y aprendizaje
 

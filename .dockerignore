@@ -1,0 +1,9 @@
+.git
+.github
+.vs
+**/bin
+**/obj
+web/node_modules
+web/dist
+docs
+*.md

@@ -21,6 +21,12 @@ Inicio habilitado por G1. La verificacion final de precios y SKU en la
 suscripcion precede al aprovisionamiento; el primer bloque de trabajo puede
 ser local y no genera consumo Azure.
 
+Estado: iniciado el 2026-07-22 con esqueleto local y CI; infraestructura Azure
+pendiente de la validacion final de SKU y autorizacion de aprovisionamiento.
+
+El esqueleto incluye `Dockerfile` multi-stage: compila React, publica la API
+.NET y sirve la SPA desde `wwwroot` en el mismo contenedor.
+
 - Crear exclusivamente `rg-goethe-asignacion-academica-dev` y `rg-goethe-asignacion-academica-prod` en `brazilsouth`.
 - Configurar presupuestos y alertas 50/80/100%.
 - Crear solamente los servicios seleccionados en `DIMENSIONAMIENTO_Y_COSTOS.md`: SQL, Key Vault, Storage, Log Analytics, Application Insights, Container Apps Environment y Container App, con SKU y replicas aprobados.

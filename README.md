@@ -29,7 +29,26 @@ El primer ciclo objetivo es 2027. El sistema comienza sin una nomina precargada:
 
 ## Estado
 
-Sprint 0 cerrado en lo referido a dimensionamiento: G1 aprobado por el owner el 2026-07-22. Sprint 1 puede comenzar; el aprovisionamiento verifica precios y SKU antes de crear servicios.
+Sprint 1 iniciado: esqueleto local, health check, pantalla bilingue y CI en construccion. G1 aprobado por el owner el 2026-07-22; el aprovisionamiento verifica precios y SKU antes de crear servicios.
+
+## Ejecucion local
+
+API:
+
+```powershell
+dotnet run --project src\AsignacionAcademica.Api\AsignacionAcademica.Api.csproj --launch-profile http
+```
+
+Frontend:
+
+```powershell
+cd web
+npm.cmd install
+npm.cmd run dev
+```
+
+La API queda en `http://localhost:5050` y Vite en `http://localhost:5173`.
+El frontend permite alternar ES/DE y muestra el estado de `/healthz`.
 
 ## Repositorio
 
