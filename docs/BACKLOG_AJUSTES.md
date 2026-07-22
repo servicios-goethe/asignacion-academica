@@ -18,3 +18,4 @@
 | AJ-014 | 2026-07-14 | Definir la plantilla de bloques horarios de disponibilidad para el ciclo 2027 respetando las opciones del Forms actual. | Incorporado | 0-2 |
 | AJ-015 | 2026-07-22 | Reescribir la metodologia Azure para exigir dimensionamiento, comparacion de planes y medicion de costo/rendimiento antes de crear servicios. | Completado | 0 |
 | AJ-016 | 2026-07-22 | Reescribir la documentacion ISO 27001 para cubrir clausulas 4 a 10, controles del Anexo A, riesgos, responsabilidades y evidencia sin declarar certificacion. | Completado | 0 |
+| AJ-017 | 2026-07-22 | Completar la puerta G1 con perfil de uso, alternativas de arquitectura, costos, rendimiento, escalado y validacion antes de Sprint 1. | En validacion del owner | 0-1 |

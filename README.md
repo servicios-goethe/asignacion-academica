@@ -18,17 +18,18 @@ El primer ciclo objetivo es 2027. El sistema comienza sin una nomina precargada:
 
 1. `docs/METODOLOGIA_PROYECTOS_AZURE.md`
 2. `docs/PLAN_MIGRACION_AZURE.md`
-3. `plan-implementacion-sprints.md`
-4. `docs/ROLES_Y_PERMISOS.md`
-5. `docs/DER.md`
-6. `docs/FORMULARIO_DISPONIBILIDAD.md`
-7. `docs/IDIOMAS.md`
-8. `docs/BLOQUES_HORARIOS_2027.md`
-9. `sprint-0/README.md`
+3. `docs/DIMENSIONAMIENTO_Y_COSTOS.md`
+4. `plan-implementacion-sprints.md`
+5. `docs/ROLES_Y_PERMISOS.md`
+6. `docs/DER.md`
+7. `docs/FORMULARIO_DISPONIBILIDAD.md`
+8. `docs/IDIOMAS.md`
+9. `docs/BLOQUES_HORARIOS_2027.md`
+10. `sprint-0/README.md`
 
 ## Estado
 
-Sprint 0 en curso. No se crean recursos Azure hasta contar con autorizacion expresa del owner.
+Sprint 0 en curso. La propuesta G1 esta documentada y espera validacion de supuestos por el owner. No se crean servicios Azure hasta cerrar G1.
 
 ## Repositorio
 

@@ -4,7 +4,7 @@ Aunque el sistema es nuevo y no una migracion, este documento conserva el nombre
 
 ## Hito 0 - Definicion
 
-Estado: En curso.
+Estado: En curso; dimensionamiento G1 documentado y pendiente de aprobacion del owner.
 
 - Corregir la vision funcional del ciclo 2027.
 - Definir roles, reglas academicas y contrato GPU014.
@@ -13,12 +13,17 @@ Estado: En curso.
 - Esperar autorizacion antes de crear recursos Azure.
 - Resource groups dev y prod creados en `brazilsouth` el 2026-07-14; ambos quedaron vacios y listos para el Hito 1.
 - Presupuestos mensuales de USD 50 por ambiente creados hasta el 2028-06-30, con alertas 50/80/100% a `servicios@goethe.edu.ar`.
+- `docs/DIMENSIONAMIENTO_Y_COSTOS.md` preparado con supuestos de uso, alternativas, costos orientativos, objetivos de rendimiento y umbrales de escalado.
 
 ## Hito 1 - Infraestructura y esqueleto
 
+Inicio condicionado a la aprobacion G1 y a la verificacion final de precios y
+SKU en la suscripcion. El primer bloque de trabajo puede ser local y no genera
+consumo Azure.
+
 - Crear exclusivamente `rg-goethe-asignacion-academica-dev` y `rg-goethe-asignacion-academica-prod` en `brazilsouth`.
 - Configurar presupuestos y alertas 50/80/100%.
-- Crear Azure SQL, Key Vault, Storage, Log Analytics, Application Insights, Container Apps Environment y Container App.
+- Crear solamente los servicios seleccionados en `DIMENSIONAMIENTO_Y_COSTOS.md`: SQL, Key Vault, Storage, Log Analytics, Application Insights, Container Apps Environment y Container App, con SKU y replicas aprobados.
 - Configurar identidad administrada y OIDC de GitHub Actions.
 - Crear solucion .NET 10 + React/Vite, `/healthz`, tests y despliegue dev.
 - Crear proyecto OAuth de Google propio y configurar redirect URIs.

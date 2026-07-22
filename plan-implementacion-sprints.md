@@ -15,7 +15,7 @@ No se migraran disponibilidades ni asignaciones historicas. Los catalogos instit
 | Backend | .NET 10 LTS, ASP.NET Core Minimal APIs, EF Core |
 | Frontend | React, TypeScript, Vite, SPA servida por el backend |
 | Idiomas | Espanol y aleman con `react-i18next` y preferencia por usuario |
-| Base de datos | Azure SQL Database, tier Basic inicial |
+| Base de datos | Servicio administrado seleccionado en `docs/DIMENSIONAMIENTO_Y_COSTOS.md`; Azure SQL Basic es el baseline de G1 |
 | Identidad | Google OAuth, dominio `goethe.edu.ar`, cookie segura |
 | Hosting | Azure Container Apps |
 | Secretos | Azure Key Vault |
@@ -46,7 +46,7 @@ El dominio habilita la entrada docente, pero no otorga roles administrativos. Di
 - Todo ajuste se registra en `docs/PLAN_MEJORAS_WORKFLOW.md` y `docs/BACKLOG_AJUSTES.md`.
 - Cada sprint/hito deja una bitacora tecnica y funcional.
 
-## Sprint 0: Arranque funcional y tecnico
+## Sprint 0: Arranque funcional, tecnico y de dimensionamiento
 
 Objetivo: cerrar las decisiones que condicionan el modelo y dejar preparado el repositorio y el despliegue seguro.
 
@@ -59,13 +59,17 @@ Entregables:
 - Reglas pendientes de disponibilidad, estructura, asignacion y Untis.
 - Repositorio GitHub consolidado y documentacion minima.
 - Inventario de recursos Azure a crear, con presupuesto y alertas.
+- Perfil de uso, alternativas de arquitectura, costos normal/pico/anual y
+  objetivos de rendimiento en `docs/DIMENSIONAMIENTO_Y_COSTOS.md`.
 - Backlog MVP priorizado y criterios de aceptacion del Sprint 1.
 
-Criterio de cierre: decisiones criticas registradas, acceso GitHub confirmado y autorizacion de Joaquin antes de crear recursos Azure.
+Criterio de cierre: decisiones criticas registradas, acceso GitHub confirmado,
+dimensionamiento G1 aprobado por Joaquin y autorizacion antes de crear
+recursos Azure.
 
 ## Sprint 1: Fundacion, seguridad y CI/CD
 
-Objetivo: obtener un esqueleto desplegado en `dev` antes de desarrollar funcionalidades de negocio.
+Objetivo: obtener un esqueleto desplegado en `dev` despues de cerrar G1 y antes de desarrollar funcionalidades de negocio.
 
 Entregables:
 
