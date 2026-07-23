@@ -73,6 +73,18 @@ resource containerApp 'Microsoft.App/containerApps@2024-03-01' = {
     managedEnvironmentId: containerEnvironment.id
     configuration: {
       activeRevisionsMode: 'Single'
+      secrets: [
+        {
+          name: 'google-client-id'
+          keyVaultUrl: 'https://${keyVault.name}.vault.azure.net/secrets/Authentication--Google--ClientId'
+          identity: pullIdentity.id
+        }
+        {
+          name: 'google-client-secret'
+          keyVaultUrl: 'https://${keyVault.name}.vault.azure.net/secrets/Authentication--Google--ClientSecret'
+          identity: pullIdentity.id
+        }
+      ]
       ingress: {
         external: externalIngress
         targetPort: 8080
@@ -99,6 +111,18 @@ resource containerApp 'Microsoft.App/containerApps@2024-03-01' = {
             {
               name: 'ASPNETCORE_ENVIRONMENT'
               value: 'Development'
+            }
+            {
+              name: 'Authentication__Google__ClientId'
+              secretRef: 'google-client-id'
+            }
+            {
+              name: 'Authentication__Google__ClientSecret'
+              secretRef: 'google-client-secret'
+            }
+            {
+              name: 'Authentication__AllowedDomain'
+              value: 'goethe.edu.ar'
             }
           ]
         }

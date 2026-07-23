@@ -26,7 +26,7 @@ Incluye:
 - AJ-017: dimensionamiento G1 aprobado por el owner: 80 docentes, 40 simultaneos como estres extremo, pico de cuatro semanas, objetivos p95, RTO/RPO, presupuesto y baseline Azure.
 - AJ-018: Sprint 1 iniciado con esqueleto .NET/React, endpoints base, pantalla bilingue, configuracion local y CI de build/test.
 - AJ-018: baseline Azure dev desplegado con SQL, Key Vault, Storage, ACR, observabilidad y Container App interna saludable; prod permanece bloqueado hasta SSO.
-- AJ-019: Google OAuth propio pendiente; la CLI GCP no esta instalada en el entorno actual.
+- AJ-019: Google OAuth propio en dev: secretos cargados en Key Vault, middleware .NET y referencias de Container Apps desplegados; pendiente registrar la redirect URI y ejecutar la prueba con cuenta institucional.
 - AJ-020: ingress interno mantenido como medida preventiva mientras se configura Google SSO.
 - AJ-021: proteccion de aplicacion requerida antes de habilitar acceso externo: autenticacion, dominio, rate limiting, limites de request, logging y replicas acotadas.
 - AJ-022: contencion automatica de costos pendiente: budget de USD 100, Action Group, escala a cero, bloqueo de ingress y recuperacion manual.

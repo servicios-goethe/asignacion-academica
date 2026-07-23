@@ -95,7 +95,7 @@ function App() {
           <h1 id="page-title">{t.title}</h1>
           <p className="subtitle">{t.subtitle}</p>
           <p className="description">{t.description}</p>
-          <button className="primary-button" type="button" disabled>
+          <button className="primary-button" type="button" onClick={() => { window.location.href = `${apiUrl}/auth/login?returnUrl=/` }}>
             <span className="google-g" aria-hidden="true">G</span>
             {t.login}
           </button>
