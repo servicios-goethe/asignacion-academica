@@ -27,5 +27,23 @@ Incluye:
 - AJ-018: Sprint 1 iniciado con esqueleto .NET/React, endpoints base, pantalla bilingue, configuracion local y CI de build/test.
 - AJ-018: baseline Azure dev desplegado con SQL, Key Vault, Storage, ACR, observabilidad y Container App interna saludable; prod permanece bloqueado hasta SSO.
 - AJ-019: Google OAuth propio pendiente; la CLI GCP no esta instalada en el entorno actual.
+- AJ-020: ingress interno mantenido como medida preventiva mientras se configura Google SSO.
+- AJ-021: proteccion de aplicacion requerida antes de habilitar acceso externo: autenticacion, dominio, rate limiting, limites de request, logging y replicas acotadas.
+- AJ-022: contencion automatica de costos pendiente: budget de USD 100, Action Group, escala a cero, bloqueo de ingress y recuperacion manual.
+- AJ-023: alertas de anomalias de costo y politicas preventivas pendientes para evitar exposiciones publicas o SKUs no aprobados.
+
+## Lote 002 - Seguridad y contencion de costos
+
+Objetivo: reducir la superficie de ataque y limitar el impacto economico de una exposicion o abuso antes de publicar la aplicacion.
+
+Orden de implementacion:
+
+1. Completar Google SSO y cargar los secretos reales en Key Vault sin versionarlos ni compartirlos por chat.
+2. Mantener `externalIngress=false` hasta validar autenticacion, autorizacion por perfil y pruebas de acceso no autorizado.
+3. Implementar rate limiting, limites de payload, logs de seguridad y maximo de replicas controlado.
+4. Configurar alertas de presupuesto y anomalias; luego agregar Action Group con automatizacion de emergencia.
+5. Probar el bloqueo en dev y documentar la recuperacion manual antes de considerar prod.
+
+La contencion automatica reduce el consumo de computo y acceso, pero no garantiza una factura maxima: SQL, almacenamiento, ACR, Key Vault, observabilidad y otros cargos pueden continuar. Azure evalua presupuestos con demora, por lo que el budget es una barrera de emergencia y no un limite financiero absoluto.
 
 Criterio de cierre: documentacion publicada en GitHub, arquitectura aprobada y prerrequisitos de Sprint 1 identificados. La creacion de recursos Azure requiere autorizacion expresa.

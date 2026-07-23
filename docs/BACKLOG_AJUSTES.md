@@ -20,4 +20,8 @@
 | AJ-016 | 2026-07-22 | Reescribir la documentacion ISO 27001 para cubrir clausulas 4 a 10, controles del Anexo A, riesgos, responsabilidades y evidencia sin declarar certificacion. | Completado | 0 |
 | AJ-017 | 2026-07-22 | Completar la puerta G1 con perfil de uso, alternativas de arquitectura, costos, rendimiento, escalado y validacion antes de Sprint 1. | Completado: aprobado por owner | 0-1 |
 | AJ-018 | 2026-07-22 | Iniciar Sprint 1 con solucion .NET 10, frontend React/Vite, health check, configuracion local, tests y CI. | En curso: dev aprovisionado | 1 |
-| AJ-019 | 2026-07-23 | Preparar Google OAuth institucional propio, restringido a `@goethe.edu.ar`, con redirects dev/prod antes de publicar ingress externo. | Pendiente: CLI GCP no instalada | 1 |
+| AJ-019 | 2026-07-23 | Preparar Google OAuth institucional propio, restringido a `@goethe.edu.ar`, con redirects dev/prod antes de publicar ingress externo. | En curso: permiso de Key Vault listo; falta configurar Google Cloud | 1 |
+| AJ-020 | 2026-07-23 | Mantener ingress interno y acceso publico deshabilitado hasta completar Google SSO, autorizacion por perfil y pruebas de seguridad. | En curso: dev interno | 1 |
+| AJ-021 | 2026-07-23 | Implementar proteccion de aplicacion antes de habilitar ingress externo: autenticacion obligatoria, dominio permitido, rate limiting, limites de request, logging y maximo de replicas controlado. | Pendiente | 1-2 |
+| AJ-022 | 2026-07-23 | Diseñar y probar contencion automatica ante presupuesto de USD 100: Action Group, automatizacion para escalar a cero/deshabilitar ingress, aviso a `servicios@goethe.edu.ar` y recuperacion manual. | Pendiente | 1-2 |
+| AJ-023 | 2026-07-23 | Configurar Cost Anomaly Alerts y politicas Azure para evitar ingress publico o SKUs no aprobados fuera del proceso de cambio. | Pendiente | 1-2 |
