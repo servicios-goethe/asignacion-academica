@@ -25,5 +25,7 @@ Incluye:
 - AJ-016: documento de seguridad ampliado para integrar gobierno del SGSI, Anexo A, gestion de riesgos, evidencia y condiciones de salida a produccion.
 - AJ-017: dimensionamiento G1 aprobado por el owner: 80 docentes, 40 simultaneos como estres extremo, pico de cuatro semanas, objetivos p95, RTO/RPO, presupuesto y baseline Azure.
 - AJ-018: Sprint 1 iniciado con esqueleto .NET/React, endpoints base, pantalla bilingue, configuracion local y CI de build/test.
+- AJ-018: baseline Azure dev desplegado con SQL, Key Vault, Storage, ACR, observabilidad y Container App interna saludable; prod permanece bloqueado hasta SSO.
+- AJ-019: Google OAuth propio pendiente; la CLI GCP no esta instalada en el entorno actual.
 
 Criterio de cierre: documentacion publicada en GitHub, arquitectura aprobada y prerrequisitos de Sprint 1 identificados. La creacion de recursos Azure requiere autorizacion expresa.

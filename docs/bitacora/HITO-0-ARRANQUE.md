@@ -29,6 +29,7 @@ Estado: En curso
 - Preparacion de `DIMENSIONAMIENTO_Y_COSTOS.md` como propuesta G1: alternativa administrada de bajo costo, supuestos de carga, presupuesto, objetivos p95, RTO/RPO, umbrales y medicion posterior.
 - Aprobacion de G1 por el owner: 80 docentes, 40 simultaneos como estres extremo, pico operativo de cuatro semanas, p95 confirmado, RTO 8 horas, RPO 24 horas y presupuesto normal de USD 50 por ambiente.
 - Inicio de Sprint 1: solucion .NET 10, frontend React/Vite bilingue, `/healthz`, `/api/config`, test de contrato y workflow CI.
+- Aprovisionamiento dev de Sprint 1: SQL con Entra-only, Storage privado, Key Vault RBAC, ACR Basic, Log Analytics, Application Insights, Container Apps Environment e imagen `5087af8` en Container App interna saludable.
 
 ## Incidencias y aprendizaje
 
@@ -41,6 +42,7 @@ Estado: En curso
 | La documentacion ISO 27001 mencionaba solo el Anexo A | Se habia registrado un recorte tecnico orientado a controles de aplicacion | Se incorporaron gobierno del SGSI, gestion de riesgos, responsabilidades, evidencia y limites de la declaracion de alineacion |
 | No existia un dimensionamiento formal antes de Sprint 1 | El uso esperado era bajo pero no estaba cuantificado | Se documento una propuesta con margen de carga y aprobacion G1 pendiente antes de crear servicios Azure |
 | Los supuestos iniciales sobredimensionaban la primera etapa | Se uso un escenario generico antes de confirmar la cantidad real de docentes | Direccion confirmo 80 docentes y ajusto la prueba extrema a 40 simultaneos con pico de cuatro semanas |
+| El deployment inicial fallo por orden de recursos y propiedad de Key Vault | SQL Entra-only se evaluaba antes de crear el administrador AAD y Key Vault no admite enviar purge protection false | Se agrego dependencia explicita, se separaron vaults dev/prod y el redeploy idempotente termino en Succeeded |
 
 ## Pendiente
 

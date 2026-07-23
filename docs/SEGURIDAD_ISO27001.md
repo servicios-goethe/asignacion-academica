@@ -203,7 +203,7 @@ Estados permitidos: `Pendiente`, `En tratamiento`, `Mitigado`, `Aceptado` o
 | Id | Brecha o riesgo | Nivel preliminar | Tratamiento previsto | Owner | Evidencia de cierre | Estado |
 | --- | --- | --- | --- | --- | --- | --- |
 | SEC-001 | Proyecto OAuth Google aun no creado | Alto | Crear proyecto exclusivo, restringir dominio y registrar redirects dev/prod | Admin tecnico | Configuracion revisada + login probado | Pendiente |
-| SEC-002 | RG creados pero servicios y controles Azure aun no desplegados | Medio | Crear servicios solo despues de aprobar dimensionamiento y seguridad | Admin tecnico | IaC/configuracion + smoke test | Pendiente |
+| SEC-002 | Dev desplegado; prod y controles productivos aun pendientes | Medio | Mantener ingress interno, validar dev y promover solo despues de SSO/UAT | Admin tecnico | IaC/configuracion + smoke test + UAT | En tratamiento |
 | SEC-003 | Matriz de permisos definida pero no implementada ni probada | Alto | Autorizacion backend y tests positivos/negativos por rol | Equipo de desarrollo | Suite de autorizacion verde | Pendiente |
 | SEC-004 | Especificacion GPU014 pendiente de validacion | Medio | Validar exportacion en Untis con archivo controlado sin datos sensibles | Director funcional | Acta de prueba y fixture aprobado | Pendiente |
 | SEC-005 | Alcance del SGSI y SoA institucional no vinculados al proyecto | Medio | Confirmar alcance, owner de riesgos y controles heredados | Direccion / SGSI | Acta o referencia institucional | Pendiente |

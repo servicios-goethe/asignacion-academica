@@ -21,11 +21,18 @@ Inicio habilitado por G1. La verificacion final de precios y SKU en la
 suscripcion precede al aprovisionamiento; el primer bloque de trabajo puede
 ser local y no genera consumo Azure.
 
-Estado: iniciado el 2026-07-22 con esqueleto local y CI; infraestructura Azure
-pendiente de la validacion final de SKU y autorizacion de aprovisionamiento.
+Estado: dev aprovisionado el 2026-07-23 con esqueleto, imagen y Container App
+interna; Google OAuth pendiente. Prod no creado.
 
 El esqueleto incluye `Dockerfile` multi-stage: compila React, publica la API
 .NET y sirve la SPA desde `wwwroot` en el mismo contenedor.
+
+La infraestructura declarativa de Sprint 1 vive en `infra/main.bicep`. El
+archivo `infra/dev.parameters.example.json` no contiene secretos; la password
+SQL se entrega como parametro seguro solo durante el despliegue.
+
+`infra/container-app.bicep` mantiene el ingress interno hasta completar Google
+SSO y autorizacion server-side; no se publica una aplicacion sin autenticacion.
 
 - Crear exclusivamente `rg-goethe-asignacion-academica-dev` y `rg-goethe-asignacion-academica-prod` en `brazilsouth`.
 - Configurar presupuestos y alertas 50/80/100%.

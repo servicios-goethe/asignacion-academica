@@ -19,4 +19,5 @@
 | AJ-015 | 2026-07-22 | Reescribir la metodologia Azure para exigir dimensionamiento, comparacion de planes y medicion de costo/rendimiento antes de crear servicios. | Completado | 0 |
 | AJ-016 | 2026-07-22 | Reescribir la documentacion ISO 27001 para cubrir clausulas 4 a 10, controles del Anexo A, riesgos, responsabilidades y evidencia sin declarar certificacion. | Completado | 0 |
 | AJ-017 | 2026-07-22 | Completar la puerta G1 con perfil de uso, alternativas de arquitectura, costos, rendimiento, escalado y validacion antes de Sprint 1. | Completado: aprobado por owner | 0-1 |
-| AJ-018 | 2026-07-22 | Iniciar Sprint 1 con solucion .NET 10, frontend React/Vite, health check, configuracion local, tests y CI. | En curso | 1 |
+| AJ-018 | 2026-07-22 | Iniciar Sprint 1 con solucion .NET 10, frontend React/Vite, health check, configuracion local, tests y CI. | En curso: dev aprovisionado | 1 |
+| AJ-019 | 2026-07-23 | Preparar Google OAuth institucional propio, restringido a `@goethe.edu.ar`, con redirects dev/prod antes de publicar ingress externo. | Pendiente: CLI GCP no instalada | 1 |
